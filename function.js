@@ -191,7 +191,7 @@ const divide = (a, b) => a / b;
 const multiply = (a, b) => a * b;
 const remainder = (a, b) => a % b;
 
-function calulate(command, a, b){
+function calculate(command, a, b){
     switch (command){
         case 'add':
             return add(a,b);
@@ -208,4 +208,4 @@ function calulate(command, a, b){
     }
 }
 
-console.log(calulate('substract', 2, 3));
+console.log(calculate('substract', 2, 3));
