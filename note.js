@@ -1,5 +1,5 @@
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference <- 자바스크립트 문법정리 공식사이트
-
+//Class
 // field , method를 묶어둔것을 class를 말함 
 //간혹혹 field만 묵어둔걸 데이터 클레스라고함.
 //관련있는 변수나 함수를 묶어둔것 class,
@@ -15,3 +15,12 @@ class person{
 //class자체에는 데이터가 들어가지 않고 템플릿만 정리함
 //이러이러한 데이터가 들어올수있어 데이터만 한번만 선언
 //class를 이용해서 사용하는것이 Object이다. 
+
+//array(자료구조)
+//비슷한 데이터 종류들을 자료구조 라고 한다.
+//비슷한 종류의 오브젝트를 묶어두는것을 자료구조라고 한다. 자료구조는 동일한 오브젝트만 담을수 있다.
+//JavaScript === dynamically typed language 타입이 동적으로 정해진다.
+//자료구조를 공부할때 삽입, 삭제, 검색,정렬을 어떻게 할것인지 공부하는것이 좋다.
+//배열은 index번호로 지정 되는데 맨앞부터 0부터 시작한다.
+//삽입과 삭제는 index번호로 쉽게 할 수 있다.
+
