@@ -155,7 +155,7 @@ const students = [
 //callbackfn 이전값a과 현재값b이 전달되는데 만약-값을 리턴 하게되면 첫번째가 뒤에꺼보다 작다고 간주되어서 정렬이된다.
 {
     //작은 순서대로 정렬 시킨것.
-    const resul1t = students.map((students) => students.score)
+    const result1 = students.map((students) => students.score)
     .sort((a, b) => a - b)
     .join();
     console.log(result1);
