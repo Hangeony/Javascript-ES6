@@ -24,3 +24,31 @@ class person{
 //배열은 index번호로 지정 되는데 맨앞부터 0부터 시작한다.
 //삽입과 삭제는 index번호로 쉽게 할 수 있다.
 
+//json
+//client들이 server와 통신하는 것을 정의 한것이 http이다.
+//HTTP = HyperText Transfer Protocal을 의미한다. 
+//client가 server에 데이터를 request(요청) 할수있고,
+//server는 client에게 그에 맞는 정보를 response(응답)을 보낸다.
+//HyperText는 웹사이트에서 이용되는 link들만 말하는게 아니라 문서나 이미지등을 말한다.
+//AJAX = Asynchronous JavaScript And Xml 웹페이지에서 동적으로 서버에게 데이터를 주고받는것을 의미함
+//XHR = XMLHttpRequest OBJECT는 브라우저api에서 제공하는 오브젝트중 하나로 오브젝트를 사용하면 간단하게 서버에게 데이터를 요청하고 받아올수있다.
+//최근 추가된 fetch() API를 이용하면 간편하게 데이터를 주고받을수 있다.(무조건 신상이라고 해서 사용 할 수 있는게 아니다. 인터넷 브라우저에서 지원하지 않는다.)
+//XML = html과 같은 마크업 언어와 같다. 테그들을 이용해서 데이터를 나타내는데 데이터를 표현할수 있는 한가지 방법이다.
+//서버와 데이터를 주고받을땐  xml만 가능한가 ? xml뿐만 아니라 굉장히 다양한 파일포멧을 주고 받을순있다.
+//클라이언트와 서버에서 데이터를 주고받을때 다양한 타입에 데이터를 주고 받을 수 있있다.
+//외부로 노출되는 api는 명확하게 이름을 지을필요가 있다. 
+//서버와 통신 할때 XMLHttpRequest을 사용하거나 fetch()를 사용 할 수있다.
+//xml을 사용하면 불필요한 테그가 많아서 파일사이즈가 커질뿐만아니라 가독성도 좋지 않기 때문에 많이 사용안하는 추세이다.
+//요즘에는 json방식을 더 선호한다. 
+//Json = javascript Object Notation 약자로 자바스크립트 오브젝트 관련된 파일
+//json도 똑같이 {key : value}로 이루워짐 브라우저 뿐만아니라 모바일에서 써버와 통신할때도 서버와 통신 하지 않아도 object를 파일시스템에  저장할 때도jsondatatype으로 저장됨
+
+//json은 데이터를 주고 받을때 가장 간단하다.
+//text로 기반으로 가볍다
+//사람눈으로도 읽기도 편하다
+//key-value로 이루워저 있다
+//데이터를 보통 서버와 주고 받을때 serialization을 위해서 사용 (serialization 직열화 데이터를 전송)
+//프로그렘 언어와 플레폼에 상관없이 쓸수있다.
+
+//Object를 어떻게 serialize해서 변환 할지
+//json을 deserialize 해서 object로 변환 할 것인지 두가지를 중점으로 공부하면된다.
