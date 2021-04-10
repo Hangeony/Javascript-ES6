@@ -52,3 +52,13 @@ class person{
 
 //Object를 어떻게 serialize해서 변환 할지
 //json을 deserialize 해서 object로 변환 할 것인지 두가지를 중점으로 공부하면된다.
+//json에는 두가지 함수가 있다.(stringfy, parse)
+//parse(text: string, reviver?: (this: any, key: string, value: any) => any): any; 콜백함수인데  결과값으로 뭔가 변환한다. string을 object로 변환 할때 세밀하게 조정할수있따.
+//stringify(value: any, replacer?: (this: any, key: string, value: any) => any, space?: string | number): string; 어떤 타입 오브젝트를 받아서 string으로 만드는데 좀더 세밀하게 작업하고 싶으면 콜백함수를 전달하면 좀 더 세밀한 string을 만들 수 있다.
+//stringify(value: any, replacer?: (number | string)[] | null, space?: string | number): string;}
+//동일한 이름으로 함수가 두개가 있고 전달하는 매개변수가 차이가 있다 = overloading
+
+
+//promise  = (한국어로 약속을 의미함.) 
+//Javascript에서 제공하는 비동기를  간단하게 object이다.
+//장시간기능을 수행하고 나서 정상정으로 기능이 작동하면 성공메세지와 함께 결과물을 전달해주고 기능을 수행하다가 예상치 못했던 기능을 했다면 error를 보낸다.
